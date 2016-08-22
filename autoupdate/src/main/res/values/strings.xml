@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AutoUpdate</string>
+    <string name="tv_new_version">发现新版本</string>
+    <string name="tv_hint_version_name">最新版本:</string>
+    <string name="tv_install_hint">最新版本已下载，是否安装？</string>
+    <string name="tv_update">更新内容:</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_sure">确定</string>
+</resources>
