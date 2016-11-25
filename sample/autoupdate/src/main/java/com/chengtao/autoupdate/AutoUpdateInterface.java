@@ -10,9 +10,8 @@ package com.chengtao.autoupdate;
 public interface AutoUpdateInterface {
     /**
      * 确定更新
-     * @param apkUrl 安装包的地址
      */
-    public void autoUpdateComfirm(String apkUrl);
+    public void autoUpdateComfirm();
 
     /**
      * 取消更新

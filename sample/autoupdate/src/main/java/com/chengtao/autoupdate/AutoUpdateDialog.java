@@ -71,7 +71,7 @@ public class AutoUpdateDialog extends AlertDialog{
                 public void onClick(View view) {
                     listener.onClick(UPDATE);
                     AutoUpdateDialog.this.dismiss();
-                    updateInterface.autoUpdateComfirm(entity.getApkUrl());
+                    updateInterface.autoUpdateComfirm();
                     Log.e(TAG,"init------UPDATE");
                 }
             });

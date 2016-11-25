@@ -32,7 +32,7 @@ public class AutoUpdate implements AutoUpdateInterface {
 
 
     @Override
-    public void autoUpdateComfirm(String apkUrl) {
+    public void autoUpdateComfirm() {
         Log.e(TAG, "autoUpdateComfirm");
         createNotification();
         startDownloadService();
